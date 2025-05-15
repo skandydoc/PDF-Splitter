@@ -1,0 +1,3 @@
+#!/bin/bash
+cd /Users/sb/Desktop/projects_master/PDFSplitter
+streamlit run app.py

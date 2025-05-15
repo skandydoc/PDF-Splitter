@@ -1,6 +1,7 @@
 # PDF Splitter
 
-A simple, efficient application for splitting large PDF files into smaller ones with a maximum page count.
+A simple, efficient application for splitting large PDF files into smaller ones with a maximum page count. 
+(This tool was vibe Coded using Cursor - Credits to all the shoulders on which this tool stands.)
 
 ## Features
 

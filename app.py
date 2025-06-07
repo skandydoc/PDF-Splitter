@@ -4,6 +4,11 @@ from pdf_splitter import split_pdf
 import tempfile
 from pathlib import Path
 
+# Health check for Cloud Run
+if st.query_params.get("health") == "check":
+    st.write("OK")
+    st.stop()
+
 # Disable Streamlit's default menu
 st.set_page_config(
     page_title="PDF Splitter",
